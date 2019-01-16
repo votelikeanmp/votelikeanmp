@@ -1,12 +1,19 @@
+description: An experiment into continuous voting.
 email: info@votelikeanmp.co.uk
 feed:
   path: blog/atom.xml
 github_username: votelikeanmp
+header_pages:
+  - about.md
 markdown: kramdown
+minima:
+  github: votelikeanmp
+  twitter: votelikeanmp
 name: Vote Like an MP
 permalink: /blog/:year/:month/:day/:title
 plugins:
   - jekyll-feed
-theme: jekyll-theme-cayman
+  - jekyll-seo-tag
+theme: jekyll-theme-minima
 title: Vote Like an MP
 twitter_username: votelikeanmp
