@@ -14,6 +14,6 @@ permalink: /blog/:year/:month/:day/:title
 plugins:
   - jekyll-feed
   - jekyll-seo-tag
-theme: jekyll-theme-minima
+theme: jekyll-theme-cayman
 title: Vote Like an MP
 twitter_username: votelikeanmp
