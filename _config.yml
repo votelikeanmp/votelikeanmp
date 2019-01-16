@@ -1,4 +1,12 @@
-name: Vote Like an MP
+email: info@votelikeanmp.co.uk
+feed:
+  path: blog/atom.xml
+github_username: votelikeanmp
 markdown: kramdown
+name: Vote Like an MP
 permalink: /blog/:year/:month/:day/:title
+plugins:
+  - jekyll-feed
 theme: jekyll-theme-cayman
+title: Vote Like an MP
+twitter_username: votelikeanmp
