@@ -6,13 +6,12 @@ github_username: votelikeanmp
 header_pages:
   - about.md
 markdown: kramdown
-minima:
-  github: votelikeanmp
-  twitter: votelikeanmp
 name: Vote Like an MP
+paginate: 1
 permalink: /blog/:year/:month/:day/:title
 plugins:
   - jekyll-feed
+  - jekyll-paginate
   - jekyll-seo-tag
 theme: jekyll-theme-cayman
 title: Vote Like an MP

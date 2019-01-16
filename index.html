@@ -3,7 +3,11 @@ layout: default
 title: Vote Link an MP
 ---
 <body>
-	<h1>Vote Like an MP</h1>
-	<p>You can visit the <a href="http://votelikeanmp.co.uk">Vote Like an MP</a> site.</p>
+	<h1>Blog Posts</h1>
+	<ul class="posts">
+	  {% for post in site.posts %}
+		<li><span>{{ post.date | date_to_string }}</span> &raquo; <a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></li>
+	  {% endfor %}
+	</ul>
 </body>
 
