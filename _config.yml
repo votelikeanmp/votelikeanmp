@@ -1,2 +1,4 @@
-theme: jekyll-theme-cayman
+name: Vote Like an MP
+markdown: kramdown
 permalink: /blog/:year/:month/:day/:title
+theme: jekyll-theme-cayman
